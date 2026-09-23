@@ -6,9 +6,8 @@ description: Reviews a product problem statement against ProductPlan and ProdPad
 # Reviewing problem statements
 
 ## Overview
-Diagnose the statement against the criteria below and ask questions. When the user
-explicitly asks for a rewrite, skip the table: give the rewrite using the template under
-Output, then up to three questions that would fill its placeholders.
+Hold a problem statement to the criteria below: review the one the user brings, or rewrite it
+when they ask.
 
 Every criterion comes from the two sources tagged in the table at the end. Cite only these.
 If a point is not covered by them, say so instead of supplying one.
@@ -29,16 +28,21 @@ If a point is not covered by them, say so instead of supplying one.
 
 ## Output
 
+**Review**, when the user shares a problem statement:
+
 1. A table: one row per criterion, marked ✅ / ⚠️ / ❌, each with a one-line reason
    that quotes the user's own words.
 2. Up to three questions that would move the statement forward, drawn from the 5 Ws and H
    [PD]: who is affected, what is the problem, where, when, why does it matter, how is it
    addressed today.
-3. If no rewrite was requested, one closing line offering one.
+3. One closing line offering a rewrite. The rewrite itself waits for the user to ask.
 
-Rewrites use the [PD] template:
-"[User type] experiences [problem] when [context], which results in [negative outcome or frustration]."
-Keep a bracketed placeholder for anything the user did not state.
+**Rewrite**, when the user asks for one:
+
+1. The statement in the [PD] template, with a bracketed placeholder for anything the user did
+   not state: "[User type] experiences [problem] when [context], which results in [negative
+   outcome or frustration]."
+2. Up to three questions that would fill the placeholders.
 
 ## Reference examples
 
