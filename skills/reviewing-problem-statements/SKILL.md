@@ -24,7 +24,7 @@ If a point is not covered by them, say so instead of supplying one.
 | 6 | Evidence-based | ❌ for assumptions dressed as facts. No evidence cited: ⚠️, treat it as a hypothesis to validate with real people | [PD] Red flags; Kick Off Your Hypothesis; Validate with Real People |
 | 7 | Impact-aware | Why it matters and how much: how often, how painful | [PD] Consider the Impact; [PP] Impact |
 | 8 | Measurable | A metric or benchmark that could track progress. Optional: mark ✅ or —, never ❌ | [PP] Measurability |
-| 9 | Length | Usually 1–2 sentences | [PD] |
+| 9 | Length | Usually 1–2 sentences. A length set by the user's guidelines replaces [PD]'s; the reason names it | [PD] |
 
 ## Output
 
