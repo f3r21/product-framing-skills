@@ -6,11 +6,14 @@ description: Reviews a product problem statement against ProductPlan and ProdPad
 # Reviewing problem statements
 
 ## Overview
-Hold a problem statement to the criteria below: review the one the user brings, or rewrite it
-when they ask.
-
 Every criterion comes from the two sources tagged in the table at the end. Cite only these.
 If a point is not covered by them, say so instead of supplying one.
+
+## Template
+Fill the user's template when they supply one. Otherwise [PD]'s: "[User type] experiences
+[problem] when [context], which results in [negative outcome or frustration]." Its example:
+"Remote team managers struggle to track project progress when using multiple tools, which leads
+to miscommunication and missed deadlines."
 
 ## Criteria
 
@@ -28,28 +31,20 @@ If a point is not covered by them, say so instead of supplying one.
 
 ## Output
 
-**Review**, when the user shares a problem statement:
+**Review**, when the user shares a problem statement, in these three parts and nothing else:
 
-1. A table: one row per criterion, marked ✅ / ⚠️ / ❌, each with a one-line reason
-   that quotes the user's own words.
+1. One line answering the question the user asked, then a table: one row per criterion, marked
+   ✅ / ⚠️ / ❌, each with a one-line reason that quotes the user's own words.
 2. Up to three questions that would move the statement forward, drawn from the 5 Ws and H
    [PD]: who is affected, what is the problem, where, when, why does it matter, how is it
    addressed today.
 3. One closing line offering a rewrite. The rewrite itself waits for the user to ask.
 
-**Rewrite**, when the user asks for one:
+**Rewrite**, when the user asks for one, in these two parts and nothing else:
 
-1. The statement in the [PD] template, with a bracketed placeholder for anything the user did
-   not state: "[User type] experiences [problem] when [context], which results in [negative
-   outcome or frustration]."
+1. The statement in the template, within the Length criterion, with a bracketed placeholder for
+   anything the user did not state.
 2. Up to three questions that would fill the placeholders.
-
-## Reference examples
-
-- Bad [PD]: "Our product doesn't have a real-time chat feature, which annoys users." It
-  focuses on the solution and lacks context, persona and impact.
-- Good [PD]: "Online shoppers abandon carts when they can't calculate shipping costs
-  upfront, resulting in lost revenue and frustrated users."
 
 ## Sources
 
