@@ -6,7 +6,8 @@ scope) against criteria taken from published sources.
 ## Language
 
 **Source**:
-A published page a skill cites by tag, such as [PD]. Every criterion rests on one.
+A published page a skill cites by a tag unique across the skills, such as [PD]. Every criterion
+rests on one.
 _Avoid_: reading, reference, material
 
 **Criterion**:
